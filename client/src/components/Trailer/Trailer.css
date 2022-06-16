@@ -1,0 +1,12 @@
+.trailer {
+  margin-bottom: 100px;
+}
+
+.trailer-container {
+  width: 1122px;
+}
+
+.trailer-container iframe {
+  width: 100%;
+  min-height: 631px;
+}

@@ -1,0 +1,16 @@
+.sort-links {
+  transition: 150ms all ease-in-out;
+  color: #fff;
+}
+
+.sort-links:hover {
+  transition: 150ms all ease-in-out;
+  cursor: pointer;
+  color: rgb(141, 141, 141);
+}
+
+.sort-links.active {
+  transition: 250ms all ease-in-out;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}

@@ -1,0 +1,158 @@
+.details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.details-background {
+  position: fixed;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(0.5rem);
+}
+.details-wrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+
+  margin: 100px;
+  /* border: 1px solid black; */
+}
+
+.details-headline-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-headline-wrapper h1 {
+  font-size: 40px;
+}
+
+.details-headline-wrapper h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.details-content-wrapper {
+  display: flex;
+  margin-top: 80px;
+}
+
+.details-overview {
+  line-height: 1.3;
+  white-space: pre-wrap;
+  width: 110vh;
+}
+
+.details-overview-wrapper {
+  margin-left: 100px;
+  width: 65rem;
+}
+
+.details-overview-title {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.details-poster {
+  width: 360px;
+  align-self: flex-start;
+  border: 1px solid black;
+}
+
+.details-rating {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  place-items: center;
+  max-width: 360px;
+  width: 100%;
+}
+
+.details-votes {
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.star-icon {
+  width: 20px;
+  margin-right: 5px;
+  fill: #ffb90d;
+}
+
+.details-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  padding: 20px;
+  max-width: 340px;
+}
+
+.details-info-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.details-genre {
+  display: flex;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 340px;
+  min-height: 42px;
+  line-height: normal;
+}
+
+.opacity_box {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.cast {
+  width: 1200px;
+}
+
+.cast h1 {
+  font-size: 30px;
+  margin: 50px 0px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  border: none;
+  padding: 14px;
+  background-color: #0000001e;
+  color: #fff;
+  min-width: 118px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border: 1px solid rgb(65, 65, 65);
+}
+
+.favorite-button:hover {
+  background-color: #474747;
+  border: 1px solid #fff;
+}
+
+.favorite-heart {
+  margin-right: 5px;
+}

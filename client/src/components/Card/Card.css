@@ -1,0 +1,91 @@
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  margin-top: 100px;
+  max-width: 1920px;
+  padding-right: 65px;
+  padding-left: 65px;
+  margin-bottom: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%), 0 20px 30px 0 rgb(0 0 0 / 20%);
+  transition: all 0.4s;
+  transition-timing-function: ease-in-out;
+  background-color: #1b1b1b;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card:hover {
+  transition: all 0.4s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%), 0 20px 30px 0 rgb(0 0 0 / 40%);
+  transform: scale(1.1);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+.cards-container-header {
+  display: flex;
+  align-items: baseline;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  font-size: 40px;
+  color: white;
+}
+
+.cards-container-header h3 {
+  font-size: 20px;
+  margin: 0px 20px;
+}
+
+.card-image {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.span-dot {
+  margin: 5px;
+}
+
+.card-year {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.card-genre {
+  font-size: 11px;
+  padding-top: 10px;
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 14px;
+}
+
+.card-desc-wrapper {
+  background-color: #1b1b1b;
+  color: white;
+  height: 80px;
+  padding: 30px;
+  padding-bottom: 45px;
+}
+
+.card-desc-wrapper h3 {
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1.5rem;
+}

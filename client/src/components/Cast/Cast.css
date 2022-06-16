@@ -1,0 +1,46 @@
+.cast-cards {
+  display: flex;
+  flex-direction: row;
+  /*width: 1200px;*/
+  width: 125vh;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.cast-card {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.cast-name-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #0000005e;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  color: #fff;
+}
+
+.cast-name {
+  font-weight: 800;
+  color: inherit;
+}
+
+.cast-character-name {
+  font-weight: 300;
+  color: inherit;
+}
+
+.cast-image {
+  width: 94px;
+  object-fit: contain;
+}
+
+.cast-card a {
+  text-decoration: none;
+  display: flex;
+}
